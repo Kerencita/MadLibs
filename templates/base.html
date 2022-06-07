@@ -3,15 +3,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
     <title>MADLIBS!</title>
-    <link rel="stylesheet" href="my-css.css">
+    <link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 
-    <h1>MadLibs</h1>
-
-    <main>{% block story %} {% endblock %}</main>
-    <section>{% block form %} {% endblock %}</section>
+    <h1>MAD LIBS!</h1>
+    <div>
+        <main>{% block story %} {% endblock %}</main>
+        <section>{% block form %} {% endblock %}</section>
+    </div>
+    
 
 </body>
 </html>
